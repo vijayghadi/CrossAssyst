@@ -28,7 +28,7 @@ public class LoginPageTest extends TestBase{
 		loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
 	}
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void browseProduct(){
 		loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
 		loginPage.browseProduct();
